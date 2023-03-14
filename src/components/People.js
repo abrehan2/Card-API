@@ -3,9 +3,6 @@ import { ClimbingBoxLoader } from "react-spinners";
 import "../styles/People.css";
 
 const People = ({ value }) => {
-
-
-
   return (
     <>
       {value.length === 0 ? (
