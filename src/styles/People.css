@@ -34,9 +34,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 1em;
   border-radius: 10px;
   background-color: #fff;
+  row-gap: 0.5em;
 }
 
 .card__wrapper
@@ -47,7 +47,7 @@
   overflow: hidden;
   border-radius: 50%;
   width: auto;
-  height: 150px;
+  height: 130px;
 }
 
 .card__wrapper
@@ -64,7 +64,7 @@
   .card__container
   .user__info
   h5 {
-  font-size: 1.3em;
+  font-size: 1em;
   color: #000;
   font-weight: 500;
 }
