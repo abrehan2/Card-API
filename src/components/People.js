@@ -3,9 +3,14 @@ import { ClimbingBoxLoader } from "react-spinners";
 import "../styles/People.css";
 
 const People = ({ value }) => {
+
+
+
   return (
     <>
-      {value ? (
+      {value.length === 0 ? (
+        <ClimbingBoxLoader color="#F45D01" className="loader" />
+      ) : (
         <div className="container-fluid card__wrapper">
           <div className="row card__wrapper__row">
             <div className="col-md card__wrapper__col">
@@ -34,8 +39,6 @@ const People = ({ value }) => {
             </div>
           </div>
         </div>
-      ) : (
-        <ClimbingBoxLoader color="#F45D01" className="loader" />
       )}
     </>
   );
